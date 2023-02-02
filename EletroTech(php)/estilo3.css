@@ -1,0 +1,198 @@
+body {
+
+    background-color: #1D2549;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    header {
+
+        border: none;
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+     li:hover{
+        border-radius: 7px;
+        background: white;
+        box-shadow: 0px 2px 20px 10px #97B1BF;
+        color: #000;
+        transition: 500ms;
+    }
+    
+    .ul {
+        
+        margin-top: 1%;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        width: 100%;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+     .ul > li {
+        transition: transform 1s;
+        transition-duration: 0.4s;
+        width: 1000px;
+        margin-left: 200px;
+        display:inline;
+        text-align: center;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: #BDF347;
+    }
+    a:hover{
+        color:black;
+    }
+    a:visited {
+        color: #fff;
+    }
+
+h2 {
+    font-size: 6vh;
+    text-align: center;
+    color: #BDF347;
+}
+
+.h2 {
+    color: #527800;
+    border-radius: 10%;
+    font-size: 4vh;
+    text-align: center;
+}
+
+
+.list {
+    list-style: none;
+}
+
+h3 {
+    padding: 8px;
+    font-size: 2vh;
+}
+input[type="button"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    font-family: poppins;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #BDF347;
+    color: rgb(17, 17, 17);
+    font-weight: bolder;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    transition: transform 1s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background: #fff;
+    box-shadow: 0px 2px 20px 10px #97B1BF;
+    color: #000;
+    transition: 500ms;
+  
+}
+
+/* .dois {
+    width: 300px;
+    height: 500px;
+    background-color: #BDF347;
+    margin-left: 40px;
+}
+
+.tres {
+    width: 300px;
+    height: 500px;
+    background-color: #BDF347;
+} */
+
+.parent {
+    height: 700px;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    margin-left: 2.5%;
+    margin-top: 10%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; border: 1px solid black; background-color: white; border-radius: 8px; width: 330px;}
+    .div2 { grid-area: 1 / 2 / 2 / 3; border: 1px solid black; background-color: white; border-radius: 8px; width: 330px;}
+    .div3 { grid-area: 1 / 3 / 2 / 4; border: 1px solid black; background-color: white; border-radius: 8px; width: 330px;}
+    .div4 { grid-area: 1 / 4 / 2 / 5; border: 1px solid black; background-color: white; border-radius: 8px; width: 330px; }
+
+
+    .footer2 {
+        margin-left: 35px;
+        font-size: 8vh;
+        color:#BDF347;
+    }
+
+    footer {
+        border: none;
+        height: 500px;
+    }
+    #fl{
+        color: white;
+        font-size: 4vh;
+        float: right;
+        margin-top: 10vh;
+        margin-right: 20vw;
+    }
+    
+    .footer {
+        margin-left: 35px;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .img{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .final {
+        margin-left: 550px;
+        margin-top: 10px;
+    }
+    
+    ul > li {
+        list-style: none;
+    }
+    
+    .img2{
+        width: 50px;
+        height: 50px;
+    }
+
+    .img2 {
+        width: 400px;
+        height: 400px;
+        float: left;
+        margin-top: -370px;
+        margin-left: 875px;
+    }
+    

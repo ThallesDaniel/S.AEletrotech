@@ -1,0 +1,43 @@
+body {
+
+    background-color: #1D2549;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+h1 {
+    margin-left: 910px;
+    font-size: 8vh;
+    color: #BDF347;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.tipoVisita {
+    border-radius: 8px;
+    height: 70px;
+    width: 670px;
+    padding: 8px;
+}
+input {
+    border-radius: 8px;
+    height: 50px;
+    width: 650px;
+    padding: 8px;
+}
+
+button {
+    float: right;
+    margin-right: 140px;
+    height: 80px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: #BDF347;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}

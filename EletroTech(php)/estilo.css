@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+
+.shit{
+    background-color: #1D2549;
+}
+
+.mamaco{
+    width: 200px;
+    height: 200px;
+    margin-left: 30%;
+}
+p {
+    margin-left: 25%;
+}
+
+section{
+    margin-top: 5%;
+    margin-left: 34%;
+    width: 500px;
+    height: 1050px;
+    background-color: #7E83AF;
+    border-radius: 5px;
+}
+
+.dois {
+    margin-top: 8%;
+    margin-left: 35%;
+    width: 450px;
+    height: 520px;
+    background-color: #7E83AF;
+    border-radius: 5px;
+}
+
+.spam{
+    margin-top: 50px;
+}
+
+.mamaques{
+    margin-top: 30px;
+    outline: none;
+}
+
+.bi-eye{
+    cursor: pointer;
+}
+
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.btn-success{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 34%;
+}
+
+header {
+
+    margin-top: 4vh;
+    border: none;
+    width: 100%;
+    height: 50px;
+
+}
+
+ li:hover{
+    border-radius: 7px;
+    background: white;
+    box-shadow: 0px 2px 20px 10px #97B1BF;
+    color: #000;
+    transition: 500ms;
+}
+
+ul {
+    
+    margin-top: 1%;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ ul > li {
+    transition: transform 1s;
+    transition-duration: 0.4s;
+    width: 1000px;
+    margin-left: 200px;
+    display:inline;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #BDF347;
+}
+a:hover{
+    color:black;
+}
+a:visited {
+    color: #fff;
+}
+
+ input[type="button"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    font-family: poppins;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.footer2 {
+    margin-top: 100px;
+    margin-left: 35px;
+    font-size: 8vh;
+    color:#BDF347;
+}
+
+footer {
+    border: none;
+    height: 500px;
+}
+#fl{
+    color: white;
+    font-size: 3vh;
+    float: right;
+    margin-top: 8vh;
+    margin-right: 20vw;
+    margin-bottom: 2vh;
+}
+
+.footer {
+    margin-left: 35px;
+    color: #fff;
+    padding: 10px;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+}
+
+.final {
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+
+
+.img2 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-top: -350px;
+    margin-left: 875px;
+}
+
+
+
+
